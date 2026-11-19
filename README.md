@@ -91,43 +91,13 @@ $$
 
 ## Output
 
-```text
-Final Q-table:
 
-
-
-
-
-Estimated State-Value Function:
-
-
-
-
-
-Learned Policy:
-
-
-
-
-Average reward over last 1000 episodes: 
-
-
-```
-
----
 
 ## Result
-```text
-
-
-
-```
-
----
+The SARSA control algorithm was successfully implemented using the Gymnasium FrozenLake-v1 environment. The agent learned an action-value function using the epsilon-greedy policy and improved its ability to reach the goal while avoiding holes.
 
 ## Inference
-```text
-
+SARSA successfully learns the Q-values using the epsilon-greedy policy. It balances exploration and exploitation and learns a better policy to reach the goal while avoiding holes.
 
 
 ```
